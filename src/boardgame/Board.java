@@ -47,4 +47,7 @@ public class Board {
         return positionExists(position.getRow(), position.getColumn());
     }
 
+    public boolean thereIsAPiece(Position position){
+        return piece(position) != null;
+    }
 }
